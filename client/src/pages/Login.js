@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Button, Col, Form, Input, message, Row } from "antd";
-import "../resourses/authentication.css";
+import "../resources/authentication.css";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
@@ -33,7 +33,7 @@ function Login() {
         <Col lg={8} xs={22}>
           <Form layout="vertical" onFinish={onFinish}>
             <h1>
-              <b>SHEY POS</b>
+              <b>FLEX POS</b>
             </h1>
             <hr />
             <h3>Login</h3>

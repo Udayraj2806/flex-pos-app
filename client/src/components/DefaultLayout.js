@@ -10,7 +10,7 @@ import {
   LoginOutlined,
   ShoppingCartOutlined,
 } from "@ant-design/icons";
-import "../resourses/layout.css";
+import "../resources/layout.css";
 import { Link, useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 const { Header, Sider, Content } = Layout;

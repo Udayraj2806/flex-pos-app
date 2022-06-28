@@ -102,11 +102,12 @@ function Bills() {
   const handlePrint = useReactToPrint({
     content: () => componentRef.current,
   });
+  console.log(billsData);
 
   return (
     <DefaultLayout>
       <div className="d-flex justify-content-between">
-        <h3>Items</h3>
+        <h3>Bills</h3>
       </div>
       <Table columns={columns} dataSource={billsData} bordered />
 
