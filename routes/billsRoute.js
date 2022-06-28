@@ -20,4 +20,8 @@ router.get("/get-all-bills", async (req, res) => {
     res.status(400).json(error);
   }
 });
+<<<<<<< HEAD
+=======
+
+>>>>>>> 574c148e13e5ca0ddb8ce1689ffe204f05cb3c8f
 module.exports = router;
